@@ -1,16 +1,14 @@
 <script type="text/discourse-plugin" version="0.8">
   if (settings.use_tsParticles_fireworks) {
-
+    const tsParticlesCdn = document.createElement("script");
+    tsParticlesCdn.src = "https://cdn.jsdelivr.net/npm/@tsparticles/fireworks@3.7.1/tsparticles.fireworks.bundle.min.js";
+    document.head.appendChild(script);
+  
     (async () => {
-      const tsParticlesCdn = document.createElement("script");
-      tsParticlesCdn.src = "https://cdn.jsdelivr.net/npm/@tsparticles/fireworks@3.7.1/tsparticles.fireworks.bundle.min.js";
-    
+      
       await fireworks();
     })();
     document.addEventListener("DOMContentLoaded", function() {
-      const tsParticlesCdn = document.createElement("script");
-      tsParticlesCdn.src = "https://cdn.jsdelivr.net/npm/@tsparticles/fireworks@3.7.1/tsparticles.fireworks.bundle.min.js";
-  
       // Select the fireworks div
       const fireworksDiv = document.getElementById('fireworks');
       
