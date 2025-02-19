@@ -54,4 +54,4 @@ use_tsParticles_fireworks:
   type: bool
   default: false
   description:
-    en: Use tsParticles' fireworks instead of CSS'.
+    en: Use tsParticles' fireworks instead of CSS' This creates more realistic fireworks, in addition to sound.
