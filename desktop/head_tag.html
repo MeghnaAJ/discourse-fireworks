@@ -4,7 +4,6 @@
     const tsParticlesCdn = document.createElement("script");
     tsParticlesCdn.src = "https://cdn.jsdelivr.net/npm/@tsparticles/fireworks@3.7.1/tsparticles.fireworks.bundle.min.js";
     document.head.appendChild(tsParticlesCdn);
-    console.log(settings.tsParticles_fireworks_sound_enabled);
     if (settings.tsParticles_fireworks_sound_enabled == true) {
       tsParticlesCdn.onload = function() {
         (async () => {
