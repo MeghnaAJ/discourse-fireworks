@@ -5,7 +5,7 @@
     tsParticlesCdn.src = "https://cdn.jsdelivr.net/npm/@tsparticles/fireworks@3.7.1/tsparticles.fireworks.bundle.min.js";
     document.head.appendChild(tsParticlesCdn);
   
-    if (settings.tsparticles_sound_enabled == "true") {
+    if (settings.tsparticles_fireworks_sound_enabled == "true") {
       tsParticlesCdn.onload = function() {
         (async () => {
           await fireworks({
