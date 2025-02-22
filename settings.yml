@@ -66,4 +66,4 @@ tsParticles_fireworks_rate:
   min: 1
   max: 50
   description:
-    en: Rate of tsParticle's fireworks. Defaults to 10. WARNING: It is not advisable to put any value higher than 10, as fireworks will fill up the entire screen.
+    en: Rate of tsParticle's fireworks. Defaults to 10. 
