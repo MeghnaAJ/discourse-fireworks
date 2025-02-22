@@ -55,7 +55,7 @@ use_tsParticles_fireworks:
   default: false
   description:
     en: Use tsParticles' fireworks instead of CSS' This creates more realistic fireworks, in addition to sound. This is only available on desktop.
-tsParticles_firworks_sound_enabled:
+tsParticles_fireworks_sound_enabled:
   type: bool
   default: false
   description:
